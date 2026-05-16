@@ -45,12 +45,15 @@ playwright-todo-app/
 ├── .gitignore
 └── README.md
 ```
+### Design Patterns
 
 - **Page Object Model (POM)**: ทุก selector และ interaction อยู่ใน `TodoPage` class ช่วยให้ maintain ง่าย ถ้า UI เปลี่ยน แก้ที่เดียว
 - **Centralized Test Data**: ข้อมูลทดสอบแยกไว้ใน `test-data.ts` ไม่ hardcode ในแต่ละ test
 - **Grouped Test Specs**: แบ่ง test ตาม feature (Add, Complete, Delete, Edit, Filter) ต่อยอดง่าย
 
 ---
+
+## ⚙️ Setup Environment
 
 ### Prerequisites
 - **Node.js** ≥ 18 ([ดาวน์โหลด](https://nodejs.org/))
@@ -75,6 +78,8 @@ npx playwright install
 > **หมายเหตุ**: คำสั่งนี้จะดาวน์โหลด Chromium, Firefox, และ WebKit browsers ที่ Playwright ใช้ในการทดสอบ
 
 ---
+
+## 🚀 Running Tests
 
 ### Run All Tests (Headless)
 ```bash
@@ -108,6 +113,8 @@ npx playwright test -g "TC-01"
 
 ---
 
+## 📝 Test Cases
+
 | TC ID  | Test Case                                       | Expected Result                                         |
 | ------ | ----------------------------------------------- | ------------------------------------------------------- |
 | TC-01  | เพิ่ม todo รายการเดียว                            | ระบบแสดง Todo ในรายการได้ถูกต้อง                          |
@@ -129,6 +136,8 @@ npx playwright test -g "TC-01"
 | TC-17  | ตรวจสอบตัวนับจำนวน Todo                           | ระบบแสดงจำนวน Todo คงเหลือถูกต้อง                        |
 
 ---
+
+## 💡 Project Design
 
 ### Page Object Model (`todo-page.ts`)
 `TodoPage` class รวม method ทั้งหมดที่ใช้ interact กับ TodoMVC:
