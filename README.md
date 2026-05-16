@@ -1,5 +1,7 @@
-Automated testing scripts for the [TodoMVC](https://demo.playwright.dev/todomvc/#/) demo application, built with **Playwright** and **TypeScript**.
-
+# 🎭 TodoMVC Playwright Automation Tests
+ 
+> Automated Testing project for [TodoMVC React](https://demo.playwright.dev/todomvc/#/) using **Playwright** with **TypeScript**
+ 
 ---
 
 ## 📋 Table of Contents
