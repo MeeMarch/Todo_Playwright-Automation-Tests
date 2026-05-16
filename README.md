@@ -7,7 +7,7 @@
 ## 📋 Table of Contents
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
-- [Setup Environment](#-setup-environment)
+- [Setup Environment](#%EF%B8%8F-setup-environment)
 - [Running Tests](#-running-tests)
 - [Test Cases](#-test-cases)
 - [Project Design](#-project-design)
