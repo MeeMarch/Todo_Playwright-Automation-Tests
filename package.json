@@ -1,0 +1,26 @@
+{
+  "name": "playwright-todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeeMarch/Todo_Playwright-Automation-Tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeeMarch/Todo_Playwright-Automation-Tests/issues"
+  },
+  "homepage": "https://github.com/MeeMarch/Todo_Playwright-Automation-Tests#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  }
+}
